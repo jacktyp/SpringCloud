@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-eureka-client
+      profile: dev
+      label: master
+      uri: http://localhost:9801
+
